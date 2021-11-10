@@ -1,0 +1,256 @@
+@media only screen and (max-width: 1737px) {
+    .headingMotivo {
+        padding: 0px 400px;
+        text-align: center;
+    }
+
+    .box {
+        width: 28%;
+    }
+
+
+    .aparelhos h2 {
+        width: 80%;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .containerKid p{
+        width: 400px;
+    }
+
+    .containerDispositivo h2 {
+        margin: 0px 150px 50px;
+    }
+}
+
+@media only screen and (min-width: 1517px) and (max-width: 1663px){ 
+    .box {
+        padding: 0;
+        width: 26%;
+    }
+}
+
+@media only screen and (max-width: 1513px) { 
+    .headingMotivo {
+        padding: 0px 0px;
+        width: 70%;
+    }
+
+    .box {
+        padding: 0px;
+        width: 26%;
+    }
+}
+
+@media only screen and (max-width: 1261px) {
+    .motivosContratacao {
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .box {
+        margin: 0px;
+    }
+
+    .box h3 {
+        font-size: 18px;
+        margin: 20px 0px 15px;
+    }
+
+    .box p {
+        margin: 0px 0px 20px;
+    }
+
+    .headingMotivo {
+        font-size: 40px;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 773px) and (max-width: 1223px) {
+    .box {
+        width: 24%;
+        margin: 0px 20px;
+    }
+
+    .headingMotivo {
+        font-size: 50px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .containerKid h2, .containerDispositivo h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 774px) and (max-width: 834px) {
+    .containerDispositivo h2 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+    .box {
+        width: 100%;
+    }
+
+    .visual {
+        height: 193vw;
+        background-size: 300vw;
+        background-position: top;
+    }
+
+    .containerKid h2, .containerDispositivo h2 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .navbar {
+        display: none;
+        visibility: hidden;
+    }
+
+    .container h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+
+    .container button {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .container h2 {
+        margin-top: 20px;
+        line-height: 30px;
+        font-size: 30px;
+        letter-spacing: 0.2px;
+    }
+
+    .economizarDinheiro {
+        margin-bottom: -30px;
+        flex-wrap: wrap;
+    }
+
+    .economizarDinheiro div {
+        margin: 0px 5px;
+        width: 30%;
+    }
+
+    .economizarDinheiro img {
+        width: 80px;
+        text-align: center;
+    }
+
+    .infos h3 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1276px){
+    .containerImagens {
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1023px){
+    .imagem {
+        height: auto;
+        max-width: 70%;
+    }
+
+    .quadrado {
+        width: 170px;
+        height: 170px;
+    }
+
+    .containerImagens {
+        width: 750px;
+    }
+
+    .aparelhosImagens {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .quadrado {
+        width: 120px;
+        height: 120px;
+    }
+
+    .imagem {
+        max-width: 50%;
+    }
+
+    .aparelhosImagens {
+        width: 90px;
+        margin: 0px 30px;
+        border-radius: 5px;
+    }
+
+    .containerImagens {
+        margin: 0px;
+    }
+
+    .faq {
+        justify-content: left;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .faq h2 {
+        padding: 0;
+        width: 100%;
+        font-size: 40px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .faqBox {
+        margin: 0px 0px 10px;
+        width: 100%;
+    }
+
+    .faqBox p {
+        margin: 0px 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 608px) and (max-width: 834px){
+    .imagensContainer {
+        width: 800px;
+    }
+
+    .quadrado {
+        width: 170px;
+        height: 170px;
+    }
+
+    .aparelhosImagens {
+        margin: 0px 60px;
+    }
+}

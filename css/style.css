@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #32323d;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 122px;
+}
+
+.imagemLogo {
+    padding-left: 122px;
+    align-self: center;
+}
+
+.navbar li {
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    border-bottom: 4px solid #05608A;
+}
+
+li:nth-child(1) {
+    line-height: 78px;
+    margin: 0px 30px;
+}
+
+li:nth-child(2) {
+    line-height: 78px;
+    margin: 0px 30px;
+}
+
+.navbar li:last-child {
+    padding: 8px 24px;
+    border: 2px solid #2d96c8;
+    border-radius: 35px;
+    color: #2d96c8;
+    font-size: 15px;
+}
+
+.navbar li:last-child:hover {
+    border: 2px solid #05608A;
+    color: #05608A;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(137deg,#fdbe44 15.51%,#ff480f 51.65%,#dd0252 85.09%);
+    color: white;
+    padding: 40px 0px 50px;
+    text-align: center;
+}
+
+.container h1{
+    color: black;
+    font-size: 40px;
+    margin: 0px 0px 20px;
+}
+.container h2 {
+    margin: 0px 0px 20px;
+    font-size: 80px;
+    margin: 0px auto 20px;
+    font-family: sans-serif;
+    width: 600px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -3px;
+}
+
+.container h3 {
+    font-size: 25px;
+    margin: 0px 0px 30px;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+.botao {
+    font-size: 18px;
+    background: rgba(0,0,0,.4);
+    padding: 30px 120px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    margin: 0px 198.094px
+}
+
+.botao:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container a{
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.container a:hover {
+    font-weight: 500;
+}
+.container i {
+    margin-bottom: 20px;
+}
+
+.economizarDinheiro {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.economizarDinheiro div {
+    padding: 12px;
+    margin: 12px 35px 0px;
+
+}
+
+.motivosContratacao {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0 20px;
+    margin: 0px 34px;
+    flex-wrap: wrap;
+
+}
+
+.infos {
+    color: #72727D;
+    font-size: 16px;
+    margin: 7px 0px 55px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 22px;
+}
+
+.box p {
+    margin: 0px 0px 40px;
+    color: #818181;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 22px;
+    font-family: sans-serif;
+}
+
+.headingMotivo {
+    font-size: 80px;
+    margin: 0px auto 90px;
+    padding: 0px 220px;
+    line-height: 80px;
+}
+
+
+.box {
+    font-size: 12px;
+    color: #52525D;
+    margin: 0px 42px;
+    width: 26%;
+    padding: 0px 100px;
+}
+
+.box h3 {
+    margin: 20px 0px;
+    color: black;
+    font-size: 22px;
+}
+
+.visual {
+    background-image: url("/imagens/individual.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1900px;
+    background-position: 50%;
+}
+
+.kid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 25px;
+    padding: 0px 20px;
+}
+
+.kid h2 {
+    font-size: 80px;
+    margin: 0px auto 50px;
+    text-align: center;
+    width: 85%;
+    line-height: 80px;
+}
+
+.kid p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #818181;
+    margin: 0px auto 80px;
+    font-size: 18px;
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+    color: black;
+}
+
+
+.aparelhos {
+    margin: 0px 25px;
+    padding: 0px 20px;
+}
+
+.containerDispositivo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.containerDispositivo h2 {
+    font-family: sans-serif;
+    font-size: 80px;
+    margin: 0px auto 50px;
+    text-align: center;
+    width: 75%;
+}
+
+.informacaoDispositivo {
+    margin: 0px 20px;
+    text-align: center;
+    width: 260px;
+}
+
+.informacaoDispositivo p {
+    margin: 0px 0px 40px;
+    color: #818181;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.dispositivosLink {
+    width: 100%;
+    text-align: center;
+    color: #ef5466;
+    padding: 30px 0px 60px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.containerImagens {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px 69px;
+}
+
+.aparelhosImagens h3 {
+    color: #818181;
+    margin: 10px 0px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 10px 0 35px;
+}
+
+.aparelhosImagens {
+    margin: 0px 18px; 
+    width: 245px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.quadrado {
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 0 0 20px #d2d2d2;
+    width: 245px;
+    height: 245px;
+}
+
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 60px 0px 100px;
+}
+
+.faq h2 {
+    font-family: sans-serif;
+    font-size: 80px;
+    margin: 0px 86.25px 50px;
+    padding: 0px 220px;
+    width: 100%;
+    text-align: center;
+}
+
+.faqBox h3 {
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 20px 0px;
+}
+
+.faqBox p {
+    color: #818181;
+    margin: 0px 0px 40px;
+}
+
+.faqBox {
+    line-height: 22px;
+    width: 24%;
+    margin: 0 25px;
+}
+
+.rodape {
+
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 18px;
+    width: 80%;
+    color: #818181;
+    padding: 40px 0;
+}
